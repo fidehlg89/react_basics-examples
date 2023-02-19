@@ -2,8 +2,11 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import Game from "./components/BasicExamples/tic-tac-toe/Game";
 import List from "./components/Memorize/List";
 import Clock from "./components/BasicExamples/Clock";
+import Timer from "./components/BasicExamples/Timer";
+import TodoApp from "./components/BasicExamples/TodoApp";
 import HelloMessage from "./components/BasicExamples/HelloMessage";
 import MarkdownEditor from "./components/BasicExamples/MarkdownEditor";
+import { Memorize } from "./components/Memorize/Memorize";
 
 const initialUsers = [
   { id: 1, name: "Luis" },
@@ -76,8 +79,24 @@ function App() {
       </div>
 
       <div>
+        <h2>MarkdownEditor</h2>
         <MarkdownEditor />
       </div>
+
+      <div>
+        <h2>Timer</h2>
+        <Timer />
+      </div>
+
+      <div>
+        <h2>TODo App</h2>
+        <TodoApp />
+      </div>
+
+      {/* <div>
+        <h2>TODo App</h2>
+        <Memorize />
+      </div> */}
 
       <div>
         <h2>Filter Text</h2>
