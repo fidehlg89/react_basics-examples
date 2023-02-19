@@ -56,10 +56,7 @@ function App() {
     display: "flex",
     flexWrap: "wrap",
     gap: "10px",
-    cursor: 'pointer',
-    ":hover": {
-      color: "red",
-    },
+    cursor: "pointer",
   };
 
   return (
